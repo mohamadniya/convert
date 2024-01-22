@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body dir="rtl">
+    <div class="main">
+        <h1 class="title">تبدیل واحد</h1>
+        <div class="main-form">
+            
+            <form class="form-input">
+                <input type="text" id="value-one"  placeholder="مقدار اولیه را وارد کنید ">
+                <select name="" id="one-option">
+                    <option value="1">متر</option>
+                    <option value="2">سانتی متر</option>
+                </select>
+                <br>
+                <p id="error" class="error">فقط عدد وارد کنید </p>
+                <br>
+                <span class="span-title">تبدیل کنید به </span>
+               
+                <select name="" id="selector">
+                    <option value="1">متر</option>
+                    <option value="2">سانتی متر</option>
+                </select>
+                <br>
+                <button class="btn" id="btn">تبدیل بشه</button>
+                <br>
+                <span id="printresult"></span>
+            </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
